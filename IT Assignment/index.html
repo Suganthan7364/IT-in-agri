@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment II</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('asset/pexels-pragyanbezbo-4199761.jpg') no-repeat center center fixed;
+            background-size: cover;
+            background-color: #f4f4f4;
+            
+        }
+
+        .site-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1em 2em;
+            background: linear-gradient(90deg, #CDFCF6, #98A8F8(220, 92%, 75%));
+            color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .site-identity h1 {
+            margin: 0;
+            font-size: 1.8em;
+            letter-spacing: 0.05em;
+        }
+
+        .site-navigation ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .site-navigation li {
+            margin-left: 1.5em;
+        }
+
+        .site-navigation a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .site-navigation a:hover {
+            color: #043b4d;
+        }
+
+        .site-navigation a::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: white;
+            transition: width 0.3s;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+        }
+
+        .site-navigation a:hover::after {
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-identity">
+            <h1>IT IN AGRICULTURAL SYSTEM</h1>
+        </div>
+        <nav class="site-navigation">
+            <ul>
+                <li><a href="unit1.html">Unit 1</a></li>
+                <li><a href="unit2.html">Unit 2</a></li>
+                <li><a href="unit3.html">Unit 3</a></li>
+                <li><a href="unit4.html">Unit 4</a></li>
+                <li><a href="unit5.html">Unit 5</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
